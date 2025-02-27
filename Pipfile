@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "*"
+seaborn = "*"
+jupyter = "*"
+ipykernel = "*"
+sentence-transformers = "*"
+torch = "*"
+numpy = "<2"
+pandas = "*"
+pinecone-client = "*"
+streamlit = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-huggingface = "*"
+faiss-cpu = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
